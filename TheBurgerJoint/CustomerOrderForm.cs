@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace BuffaloBurgers_WForm
+namespace TheBurgerJoint
 {
     public partial class CustomerOrderForm : Form
     {

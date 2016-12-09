@@ -1,4 +1,4 @@
-﻿namespace BuffaloBurgers_WForm
+﻿namespace TheBurgerJoint
 {
     partial class CustomerOrderForm
     {

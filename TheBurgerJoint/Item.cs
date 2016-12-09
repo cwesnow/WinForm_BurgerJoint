@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BuffaloBurgers_WForm
+namespace TheBurgerJoint
 {
     public class Item
     {
