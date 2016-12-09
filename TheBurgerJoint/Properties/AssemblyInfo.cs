@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TheBurgerJoint")]
+[assembly: AssemblyTitle("BuffaloBurgers_WForm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TheBurgerJoint")]
+[assembly: AssemblyProduct("BuffaloBurgers_WForm")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("74a0cbc0-4772-4a5b-8585-f6c76b52a4c4")]
+[assembly: Guid("9642fba7-b2d0-46fd-9ffe-0b725dd24eb0")]
 
 // Version information for an assembly consists of the following four values:
 //

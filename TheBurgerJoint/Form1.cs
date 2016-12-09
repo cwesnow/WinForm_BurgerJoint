@@ -1,20 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TheBurgerJoint
+namespace BuffaloBurgers_WForm
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        int spacer = 0;
+        int Count = 0;
+
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void BeginOrder_Click(object sender, EventArgs e)
+        {
+            Count++;
+            CustomerOrderForm orderForm = new CustomerOrderForm(Count);
+            orderForm.Show();
+        }
+
+        private void TickEvent(object sender, EventArgs e)
+        {
+            spacer++;
+            if (spacer > 15) spacer = 0;
+            string output = "Touch Screen to Begin";
+
+            for (int x = 0; x < spacer; x++)
+            {
+                output = " " + output;
+            }
+                WelcomeBeginLbl.Text = output;
         }
     }
 }

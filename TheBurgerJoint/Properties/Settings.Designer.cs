@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheBurgerJoint.Properties
+namespace BuffaloBurgers_WForm.Properties
 {
 
 
